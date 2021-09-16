@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nanum+Myeongjo&family=Open+Sans&family=Tangerine:wght@700&display=swap');
+
+:root{
+    --color1: #FEB6BA;
+    --color2: #FFAD91;
+    --color3: #FFD6B9;
+    --color4: #f4dfce;
+    --color5: #A76231;
+    --font1: 'Montserrat', sans-serif;
+    --font2: 'Open Sans', sans-serif;
+    --font3: 'Nanum Myeongjo', serif;
+    --font4: 'Tangerine', cursive;
+}
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color4);
+    box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.4);
+    z-index: 99;
+}
+
+.alt-logo-container{
+    width: 33%;
+    height: 100%;
+}
+
+.alt-logo{
+    background-image: url(./images/flower.png);
+    background-position: center;
+    background-size: cover;
+    width: 3vw;
+    height: 3vw;
+    margin-top: 13px;
+    margin-left: 50px;
+}
+
+.header-title-container{
+    width: 34%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-title{
+    font-size: 36px;
+    color: black;
+    font-family: var(--font4);
+}
+
+.hamburger-container{
+    display: none;
+}
+
+.nav-options-container{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-options{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-options:hover{
+    color: gray;
+}
+
+.intro-center-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.intro-container{
+    margin-top: 10vh;
+    width: 90vw;
+    height: 90vh;
+    background-image: url(./images/pic9.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container{
+    margin-top: -2vh;
+    width: 30vw;
+    height: 12vw;
+    background-image: url(./images/lth-logo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.intro-title-container{
+    color: var(--color4);
+    width: 50vw;
+    text-align: center;
+    font-family: var(--font1);
+    letter-spacing: 2px;
+}
+
+.btn-container{
+    margin-top: 5px;
+}
+
+.contact-btn{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--color4);
+    width: 300px;
+    height: 75px;
+    font-size: 16px;
+    border: solid 2px var(--color4);
+    font-family: var(--font2);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.contact-btn:hover{
+    color: gray;
+    background-color: var(--color4);
+}
+
+.contact-btn:active{
+    transform: translate(0, 2px);
+}
+
+.about-container{
+    display: inline-block;
+    width: 100vw;
+    height: 300vh;
+    background-color: #f5f5f5;
+}
+
+.section-one-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+    width: 95vw;
+}
+
+.img1-container{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.img1{
+    width: 45vw;
+    height: auto;
+}
+
+.about-content-container1{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5vw;
+    height: 60vh;
+}
+
+.header1{
+    font-family: var(--font1);
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.text1{
+    font-family: var(--font2);
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 180%;
+}
+
+.section-two-container{
+    width: 100vw;
+    height:  100vh;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about-content-container2{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10vw;
+}
+
+.header-container2{
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: var(--font1);
+    font-size: 20px;
+}
+
+.header2{}
+.text-two-container{
+    font-family: var(--font2);
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 180%;
+}
+.text2{}
+.text3{}
+
+.about-logo-container{
+    margin-top: 150px;
+    margin-right: 10vw;
+    width: 40vw;
+    height: 40vw;
+}
+
+
+.about-logo{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.footer-container{
+    display: inline-block;
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--color4);
+    display: flex;
+    align-items: center;
+}
+
+.footer-slogan-container{
+    width: 67vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.footer-slogan{
+    margin-left: 5vw;
+    font-family: var(--font4);
+    font-size: 48px;
+}
+
+.social-media-container{
+    width: 33vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.social-media-links{
+    font-size: 36px;
+    margin-right: 40px;
+}
+
+.fa-facebook{
+    color: #187af3;
+}
+
+.fa-instagram{
+    color: white;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.fa-envelope{
+    color: gray;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .navbar{
+        align-items: flex-start;
+
+    }
+
+    .alt-logo-container{
+        display: none;
+    }
+    
+    .alt-logo{
+        display: none;
+    }
+
+    .header-title-container{
+        width: 50vw;
+    }
+
+    .header-title{
+        font-size: 24px;
+    }
+
+    .hamburger-container{
+        position: absolute;
+        top: 2vh;
+        right: 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+    }
+
+    .hamburger{
+        width: 20px;
+        height: 2px;
+        margin-bottom: 4px;
+        border-radius: 5px;
+        background-color: black;
+    }
+    
+    .nav-options-container{
+        width: 50vw;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10vh;
+        background-color: var(--color4);
+        z-index: 1;
+        border-radius: 0px 0px 5px 5px;
+        transition: all 1s ease-out;
+        transform: translate(50vw, 0);
+    }
+    
+    .nav-options{
+        font-size: 16px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .nav-options:active{
+        border-bottom: solid 1px black;
+    }
+
+    .nav-active{
+        transition: all ease-in 1s;
+        transform: translate(0, 0);
+    }
+}
